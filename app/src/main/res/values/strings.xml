@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hola Mundo</string>
+    <string name="hola">Holaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="plattinux">Plattinux</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrate!</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+</resources>

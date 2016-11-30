@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hola Mundo</string>
+    <string name="hola">Holaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="plattinux">Plattinux</string>
+    <string name="buscar">search</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="registrarse">Sing up!</string>
+    <string name="acerca_de">About</string>
+</resources>

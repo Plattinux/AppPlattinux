@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/header"
+        android:background="@color/rojo">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/logo"
+            android:src="@drawable/plattinux"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plattinux"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/buscar"
+            android:layout_margin="10dp"
+            android:id="@+id/buscar"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lupa"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iniciar"
+            android:layout_margin="10dp"
+            android:textColor="@color/blanco"
+            android:layout_below="@+id/buscar"
+            android:text="@string/iniciar_sesion"
+            android:background="@color/rojo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            android:layout_below="@id/iniciar"
+            android:layout_margin="10dp"
+            android:textColor="@color/blanco"
+            android:id="@+id/registrarse"
+            android:background="@color/rojo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="@string/acerca_de"
+            android:layout_margin="10dp"
+            android:layout_below="@id/registrarse"
+            android:background="@color/rojo"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_help"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/footer"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/rojo">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:id="@+id/instagram"
+            android:src="@drawable/ic_instagram"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/facebook"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/instagram"
+            android:src="@drawable/ic_facebook"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/facebook"
+            android:id="@+id/twitter"
+            android:src="@drawable/ic_twitter"/>
+    </RelativeLayout>
+</RelativeLayout>
